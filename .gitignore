@@ -1,0 +1,73 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+*.egg
+.eggs/
+sdist/
+wheels/
+MANIFEST
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# Environment variables
+.env
+*.env.local
+.env.*
+!.env.example
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.project
+.settings/
+.classpath
+*.sublime-project
+*.sublime-workspace
+
+# OS
+.DS_Store
+Thumbs.db
+Desktop.ini
+._*
+.Spotlight-V100
+.Trashes
+
+# Testing
+.pytest_cache/
+.coverage
+coverage.xml
+htmlcov/
+.tox/
+.nox/
+
+# Type checking / linting
+.mypy_cache/
+.ruff_cache/
+.pytype/
+.dmypy.json
+dmypy.json
+
+# Build artifacts
+*.db
+*.sqlite3
+*.log
+*.pid
+
+# Project-specific
+uv.lock
+.swarm/
